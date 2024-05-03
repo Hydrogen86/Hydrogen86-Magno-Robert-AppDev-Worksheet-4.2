@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts-Fixie Community</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="Slogan.png">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Parts and Accessories</a></li>
+                <li><a href="#" class="active">Contacts</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="banner1.jpg">
+            <img src="banner2.jpg">
+            <img src="banner3.jpg">
+            <img src="banner4.jpg">
+        </div>
+        <div class="main">
+            
+            <div class="content">
+                <h1>Contact Us</h1>
+                <h2>Contact Form</h2>
+                <p>Please use the form below to send us your questions and inquires.</p>
+
+                <!-------------------------USER INFORMATION------------------------------>
+                <div class="user-info">
+                    <form name="contact-form" method="" action="">
+                        <h3>User Information</h3>
+                        <div class="input-box">
+                            <label for="txt-name">Name:</label><br>
+                            <input type="text" name="txt-name" id="txt-name" placeholder="Enter your Name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="telephone">Telephone</label><br>
+                            <input type="tel" name="telephone" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx">
+                        </div>
+
+                        <label for="gender">Gender:</label><br>
+                        <input type="radio" name="gender" id="male-gender">
+                        <label for="male-gender">Male</label>
+                        <input type="radio" name="gender" id="female-gender">
+                        <label for="female-gender">Female</label><br>
+
+                        <h3>Message</h3>
+                        <div class="input-feedback">
+                            <textarea name="feedback" id="feedback" placeholder="Enter your messages here."></textarea>
+                        </div>
+
+                        <div class="btn-container">
+                            <button type="submit">SEND</button>
+                            <button type="reset">CLEAR</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="right-side-bar">
+                <ul>
+                    <li><img src="Fixie2.jpg"></li>
+                    <li><img src="Fixie6.jpg"></li>
+                    <li><img src="Fixie3.jpg"></li>
+                    <li><img src="Fixie8.jpg"></li>
+                    <li><img src="Fixie10.jpg"></li>
+                    <li><img src="Fixie11.png"></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <p>
+                    &copy; 2024 Fixed Gear Community <br> Robert M. Magno, Gasan, Marinduque <br> Tel No. (000) 111-2222/3333. All Rights Reserved.
+                </p>
+                <a href="https://www.facebook.com/SouthFixedBikeshop" target="_blank"><img src="facebook.png"></a>
+                <a href="https://rss.com" target="_blank"><img src="rss.png"></a>
+                <a href="https://twitter.com" target="_blank"><img src="twitter.png"></a>
+                <a href="https://youtube.com/channel/UCtWivVUhbudEKeu-mvqIpGQ" target="_blank"><img src="youtube.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
